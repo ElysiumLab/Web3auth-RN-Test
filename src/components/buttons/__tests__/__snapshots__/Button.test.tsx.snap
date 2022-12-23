@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleButton /> renders correctly 1`] = `
+<View
+  accessibilityRole="imagebutton"
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderRadius": 24,
+      "height": 40,
+      "justifyContent": "center",
+      "opacity": 1,
+      "position": "absolute",
+      "width": 40,
+    }
+  }
+>
+  <Image
+    resizeMode="contain"
+    style={
+      Array [
+        Object {
+          "tintColor": "#FFFFFF",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<RectButton /> renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

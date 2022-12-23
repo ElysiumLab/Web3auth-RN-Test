@@ -1,0 +1,55 @@
+{
+  "name": "Elysium",
+  "version": "1.0.0",
+  "description": "simplify access to the blockchain",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "keywords": [
+    "WebApp",
+    "Blockchain",
+    "Wallets",
+    "User friendly"
+  ],
+  "author": "ISIN - SUPSI",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/stack": "^6.3.3",
+    "@web3auth/react-native-sdk": "^3.2.1",
+    "base-64": "^1.0.0",
+    "ethers": "^5.7.2",
+    "expo": "~46.0.16",
+    "expo-linking": "^3.2.2",
+    "expo-status-bar": "~1.4.0",
+    "expo-web-browser": "^11.0.0",
+    "jest-expo": "^46.0.1",
+    "react": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-dotenv": "^3.3.1",
+    "react-native-get-random-values": "^1.8.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@testing-library/react-native": "^11.3.0",
+    "@types/jest": "^29.2.0",
+    "@types/react": "^18.0.24",
+    "@types/react-native": "^0.70.6",
+    "@types/react-native-dotenv": "^0.2.0",
+    "react-test-renderer": "~18.0.0"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ]
+  },
+  "private": true
+}

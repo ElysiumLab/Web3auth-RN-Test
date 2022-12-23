@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#001F2D",
+        "height": 100,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 10,
+          "top": 10,
+          "width": 60,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#0000FF",
+            "justifyContent": "center",
+            "minHeight": 30,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "bottom": 10,
+          "position": "absolute",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 12,
+          }
+        }
+      >
+        Redirect url: web3authexposample
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 12,
+          }
+        }
+      >
+        Eth Address:
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
